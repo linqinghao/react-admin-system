@@ -1,9 +1,13 @@
 import React from 'react';
+import LoginForm from '@/components/LoginForm';
+import styles from './index.less';
 
-export default () => {
+const LoginPage = () => {
   return (
-    <div>
-      <h1>login page</h1>
+    <div className={styles.wrapper}>
+      <LoginForm />
     </div>
   );
-}
+};
+
+export default LoginPage;
